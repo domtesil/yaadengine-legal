@@ -24,18 +24,18 @@
 </head>
 <body>
 <h1>YaadEngine — Privacy Policy</h1>
-<p><strong>Effective date:</strong> 15 October 2026<br>
+<p><strong>Effective date:</strong> 19 October 2026<br>
 <strong>Publisher:</strong> Dom Tesilbirth D Shira ("I", "me")<br>
 <strong>Contact:</strong> <a href="mailto:domtesil@gmail.com">domtesil@gmail.com</a></p>
 <p>YaadEngine is a flashcard app for studying with spaced repetition. This page explains what the app does with your information, what it can and cannot access on your phone, and what I can and cannot see.</p>
 <h2>The short version</h2>
 <ul>
 <li>YaadEngine <strong>does not ask for or collect your name, email address or any other personal information</strong>.</li>
-<li>There are <strong>no accounts, no sign-up and no login</strong>.</li>
-<li>Everything you create in the app <strong>stays on your own device</strong>. I do not receive it, and I have no servers that store it.</li>
-<li>The <strong>only thing the app can send out</strong> is optional, anonymous <strong>usage counts and crash reports</strong>, sent to Google. The app asks you the first time you open it. <strong>Nothing is sent unless you say yes</strong>, and you can switch it off at any time in Settings. These reports never contain your cards, decks, pictures or file names.</li>
+<li>There are <strong>no YaadEngine accounts, no sign-up and no login</strong>. The only sign-in is the optional Google Drive backup below, which uses your own Google account.</li>
+<li>Everything you create in the app <strong>stays on your own device</strong>, unless you switch on the optional Google Drive backup, which keeps a copy in <strong>your own Google Drive</strong>. I do not receive it, and I have no servers that store it.</li>
+<li>The <strong>only things the app can send out</strong> are two optional things, both off until you say yes: <strong>usage counts and crash reports</strong>, sent to Google (the app asks you the first time you open it; they never contain your cards, decks, pictures or file names), and the <strong>Google Drive backup</strong>, which you start by signing in from Settings.</li>
 <li>The app has <strong>no ads and no tracking</strong>. It does not read your advertising ID.</li>
-<li>Your data is <strong>not copied to Google's cloud backup or to a new phone automatically</strong>. You move it yourself, with the app's own export and import files.</li>
+<li>Your data is <strong>not copied to Google's automatic Android backup or to a new phone automatically</strong>. You move it yourself, with the app's own export and import files, or with the optional Google Drive backup.</li>
 <li>I <strong>never sell or share</strong> your data, because I do not have it.</li>
 </ul>
 <h2>What the app stores on your device</h2>
@@ -50,11 +50,12 @@
 <h2>What the app can and cannot access</h2>
 <p>The app asks Android for only these permissions:</p>
 <ul>
-<li><strong>Notifications:</strong> to show the study reminders you switch on.</li>
+<li><strong>Notifications:</strong> to show the study reminders you switch on, and, while an automatic Google Drive backup runs, a quiet notification with its progress.</li>
 <li><strong>Alarms at an exact time:</strong> so a reminder or a "card due" notice appears at the time you chose, and not a few minutes late.</li>
-<li><strong>Start after your phone restarts:</strong> so your reminders come back after a restart or an app update.</li>
+<li><strong>Start after your phone restarts:</strong> so your reminders, and the time of your automatic backup, come back after a restart or an app update.</li>
+<li><strong>Run in the background:</strong> used by Android's own background-work system, so that the optional automatic backup can start at the time of day you chose, also while the app is closed. It does nothing until you have signed in to Google Drive backup and switched Auto-backup on.</li>
 <li><strong>Vibration:</strong> used by notifications.</li>
-<li><strong>Internet and network state:</strong> used only to send the optional usage and crash reports described below. If you say no, the app sends nothing.</li>
+<li><strong>Internet and network state:</strong> used only to send the optional usage and crash reports and the optional Google Drive backup described below, and to check whether you are on Wi-Fi before a backup. If you say no to both, the app sends nothing.</li>
 <li><strong>Keep the phone awake briefly, and Google Play install information:</strong> added by Google's reporting software, so a report can be sent reliably and Google can tell, for example, whether the app was installed from Google Play. They are used only for the optional reports.</li>
 </ul>
 <p>The app does <strong>not</strong> ask for, and cannot use: your camera, microphone, contacts, location, phone number, advertising ID, or access to your files and photos in general. It also does not read other apps' data.</p>
@@ -75,6 +76,18 @@
 <p><strong>What is never reported:</strong> the text of your cards, the names of your decks or folders, your pictures, the names of files, your study history or progress, your contacts, your location, or anything you type.</p>
 <p><strong>How long:</strong> usage reports are kept for 2 months and crash reports for up to 90 days, after which Google deletes them automatically. Only I can see them. More about how Google handles this data: [Google's Privacy Policy](https://policies.google.com/privacy) and [Firebase and privacy](https://firebase.google.com/support/privacy).</p>
 <p>If you are under 16, or younger than the age at which you may agree to this where you live, please ask a parent or guardian before you say yes.</p>
+<h2>Google Drive backup (optional)</h2>
+<p>In Settings, under <strong>Backup</strong>, you can sign in with your Google account to keep a copy of your library in <strong>your own Google Drive</strong>, and to bring it back on a new phone or after a reinstall. <strong>Nothing is sent until you sign in</strong>, and it is off until then.</p>
+<ul>
+<li><strong>What is copied:</strong> your folders, decks and cards, the card types you made, the pictures on your cards, your study progress and your review history. It is the same content as an exported YaadEngine file. It is never sent to me.</li>
+<li><strong>Where it goes:</strong> to a hidden folder in your Google Drive that belongs to YaadEngine alone. The app asks Google for only one permission, "see and change its own configuration data in your Google Drive" (the *drive.appdata* permission). It <strong>cannot see, read or change any other file in your Drive</strong>, and other apps cannot see this folder. The files count towards your Google storage.</li>
+<li><strong>When:</strong> when you press <strong>Back up now</strong>, and, while <strong>Auto-backup</strong> is on, automatically at the time of day you choose in Settings, also while the app is closed, as often as you choose (once a day, once a week, once a month, or every number of days you set) and only if something changed. By default this happens only on Wi-Fi. While it runs, a quiet notification shows its progress. The app keeps the three latest backups and deletes older ones.</li>
+<li><strong>What the app learns about you:</strong> the email address of the Google account you choose, which it shows in Settings and keeps on your phone so it knows you are signed in. It is not sent to me.</li>
+<li><strong>Restoring:</strong> <strong>Restore</strong> lists your backups. Restoring adds back what is missing and never deletes or changes anything already in the app.</li>
+<li><strong>Not encrypted by the app:</strong> Google encrypts your Drive files in transit and in storage, but the backup file itself is not password-protected, so anyone who can open your Google account can read your cards.</li>
+<li><strong>Control and deleting:</strong> <strong>Sign out</strong> stops the backups and leaves the files in Drive. <strong>Delete backups</strong> removes them from your Drive. You can also remove them in Google Drive (Settings, Manage apps, YaadEngine, Delete hidden app data) or take away YaadEngine's access in your Google Account's security settings.</li>
+</ul>
+<p>YaadEngine's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements. The information is used only to provide this backup and restore feature. It is not used for advertising, not sold, not shared with anyone else, and not read by people. How Google handles your Drive is described in [Google's Privacy Policy](https://policies.google.com/privacy).</p>
 <h2>Pictures</h2>
 <p>When you add a picture, the app opens your phone's own photo picker or camera app. The app receives only the picture you choose or take. It copies that picture into its private storage so your card can show it. If you edit the picture in the app, the edited copy is stored the same way. Deleting the card removes its pictures from the app.</p>
 <h2>Files you import, open, share or export</h2>
@@ -82,13 +95,13 @@
 <ul>
 <li><strong>Importing:</strong> you can import cards from CSV files, Anki decks (.apkg), or YaadEngine files (.yaad). You pick the file in Android's own file chooser, or you send it to YaadEngine from another app using Share or "Open with". The app receives only that one file.</li>
 <li><strong>Temporary copies:</strong> to read a file, the app makes a temporary copy in its private cache. An Anki file is also unpacked there while it is read. The app clears older copies the next time you import, and your phone can clear them at any time.</li>
-<li><strong>Exporting:</strong> you can export decks and folders to a YaadEngine file (.yaad), with or without your study progress. You choose where it goes: you can save it to a place on your phone or in your cloud storage, or share it through Android's share sheet to another app or person. That file, and whatever app or service you send it to, is then outside my reach and is handled by that app or service, under its own policies. I do not receive it.</li>
+<li><strong>Exporting:</strong> you can export decks and folders to a YaadEngine file (.yaad) or to an Anki file (.apkg), with or without your study progress. You choose where it goes: you can save it to a place on your phone or in your cloud storage, or share it through Android's share sheet to another app or person. That file, and whatever app or service you send it to, is then outside my reach and is handled by that app or service, under its own policies. I do not receive it.</li>
 <li><strong>Exported files are not encrypted.</strong> Anyone who gets the file can read the cards in it. Please share them only with people you trust.</li>
 </ul>
 <h2>Imported decks from other people</h2>
 <p>A deck that comes from someone else, such as an Anki deck, can include pictures, fonts and card styling made with HTML and CSS. YaadEngine shows such cards in a locked-down page that is inside the app. That page cannot open websites or load anything from the internet — a rule inside the app, which applies even though the app can send the optional reports — and links inside a card do nothing. As a result, a deck cannot track you or send anything out when you study it.</p>
 <h2>Backups</h2>
-<p>I have turned off Android's automatic backup and device-to-device transfer for this app. Nothing from YaadEngine is copied to Google's cloud backup or moved to a new phone automatically. To keep your cards safe, or to move them to a new phone, export them to a YaadEngine file and import that file on the other phone.</p>
+<p>I have turned off Android's own automatic backup and device-to-device transfer for this app. Nothing from YaadEngine is copied to Google's automatic backup or moved to a new phone automatically. To keep your cards safe, or to move them to a new phone, you can use the optional <strong>Google Drive backup</strong> described above, or export them to a YaadEngine file and import that file on the other phone.</p>
 <h2>Links to other services</h2>
 <p>The <strong>Settings</strong> screen has two links that open in your web browser, and the <strong>Privacy Policy</strong> link opens this page:</p>
 <ul>
@@ -102,14 +115,14 @@
 <h2>How your data is protected</h2>
 <p>Your data is kept in the app's private storage, which Android protects from other apps. The app does not add its own encryption or password. Anyone who can unlock your phone and open YaadEngine can see your cards, so please use your phone's screen lock. Files you export are not protected, as explained above.</p>
 <h2>How long your data is kept, and how to delete it</h2>
-<p>I keep none of your cards or study data, so I have nothing of that to delete on my side. The optional usage and crash reports are deleted by Google automatically after the time given above, and switching the reports off in Settings stops new ones. They are not tied to your name or email, so I cannot look up "your" reports, but if you have a question or want help, write to me. On your phone, your data stays until you remove it:</p>
+<p>I keep none of your cards or study data, so I have nothing of that to delete on my side. If you used the Google Drive backup, those files are in your own Drive, and you delete them with <strong>Delete backups</strong> in Settings or in Google Drive, as described above. The optional usage and crash reports are deleted by Google automatically after the time given above, and switching the reports off in Settings stops new ones. They are not tied to your name or email, so I cannot look up "your" reports, but if you have a question or want help, write to me. On your phone, your data stays until you remove it:</p>
 <ul>
 <li>delete any card, deck or folder in the app, and its pictures go with it;</li>
 <li>remove everything by uninstalling the app, or by choosing "Clear storage" for YaadEngine in your phone's settings;</li>
 <li>files you exported or saved yourself stay where you put them until you delete them.</li>
 </ul>
 <h2>Children</h2>
-<p>YaadEngine does not knowingly collect personal information from anyone, including children. It has no accounts, no chat and no purchases. The only thing it can send is the optional, anonymous usage and crash reports above, and only if the user agrees; children should ask a parent or guardian first.</p>
+<p>YaadEngine does not knowingly collect personal information from anyone, including children. It has no accounts, no chat and no purchases. The only things it can send are the optional, anonymous usage and crash reports and the optional Google Drive backup above, and only if the user agrees; children should ask a parent or guardian first.</p>
 <h2>Your rights</h2>
 <p>Laws such as the GDPR in Europe and the UK, the CCPA in California and India's data protection law give people the right to see, correct, delete or move the personal information a company holds about them. Because I hold none of your cards or study data, and the optional reports are anonymous, there is little for me to show, correct or delete. You already have full control of your data on your own phone, and where the law asks for your consent (as in the EU and the UK), the reports are sent only with your consent, which you can withdraw at any time in Settings.</p>
 <h2>Changes to this policy</h2>
